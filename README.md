@@ -17,7 +17,7 @@ monaco-editor-0.52.2
 
 ※SQLの言語拡張を作成する際に、テーブルやキー項目用にアイコンを変更したかったので…
 
-[CustomizeCompletionItemKind.js](./CustomizeCompletionItemKind.js)
+[CustomizeCompletionItemKind.js](./src/CustomizeCompletionItemKind.js)
 
 ```` javascript
         addCompletionItemKind("Key", codicons.Codicon.key);
@@ -35,7 +35,7 @@ SQLの言語拡張を作成する際に、テーブルに応じたフィール�
 
 ※毎回全体をパースし直さない用にmonaco editor内のデータを使用しているためバージョンが変わると使用できなくなると思います…。
 
-[GetTableName.js](./GetTableName.js)
+[GetTableName.js](./src/GetTableName.js)
 
 ```` SQL
 SELECT A.item FROM table_name A
